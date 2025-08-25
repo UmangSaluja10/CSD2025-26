@@ -1,0 +1,15 @@
+=== Student Info ===
+Name: Umang Saluja
+Roll No: 269
+Address: Khatauli
+Phone No: 9568810150
+
+=== Academic Info ===
+Roll No: 269
+Phone No: 9568810150
+Branch: CS
+Year: 2024
+
+=== Admission Info ===
+Name: Umang Saluja
+Roll No: 269
