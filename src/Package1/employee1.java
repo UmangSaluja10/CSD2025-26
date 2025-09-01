@@ -1,6 +1,6 @@
 package Package1;
 import java.util.*;
-public class Employee {
+public class employee1 {
     String name;
     long salary;
     String city;
@@ -9,9 +9,9 @@ public class Employee {
     }
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        Employee[] e1 = new Employee[3];
+        employee1[] e1 = new employee1[3];
         for(int i=0;i<3;i++) {
-            e1[i] = new Employee();
+            e1[i] = new employee1();
         }
         e1[0].name = "Rakesh";
         e1[0].salary = 100000;
