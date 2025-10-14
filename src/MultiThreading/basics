@@ -1,0 +1,33 @@
+QUES 1. Diff between multiProgramming, multiProcessing, multiTasking and multiThreading
+ANS 1. multiProgramming: multiple jobs are loaded in the CPU one by one if any program wait for resource.
+multiProcessing: multiple cores of CPU running tasks concurrently.
+multiTasking: multiple programs running processes so fast in slices it create  illusion of parallalism.
+multiThreading: process are divided into multiple threads
+
+there are 2 ways to create threads in java:
+1) thread class
+2) runnable interface (with a method run())
+
+
+1) Thread classs:
+class CSD extends Thread{
+public void run(){
+    System.out.println("task");
+}
+public static void main(String[] args){
+    CSD cs = new CSD();
+    cs.start();
+}
+}
+
+2) Runnable interface:
+class runnableClass implements Runnalbe{
+    public void run(){
+        System.out.println("tak");
+    }
+    public static void main(String[] args){
+        runnableClass cs = new runnableClass();
+        Thread t1 = new Thread(cs);
+        t1.start();
+    }
+}
