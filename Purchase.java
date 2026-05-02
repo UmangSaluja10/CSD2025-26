@@ -10,7 +10,7 @@ class Purchase extends Stock
         prate=b;
     }
 
-    void update()
+    void update()    //update function
     {
         qty+=pqty;
         if(prate!=rate)
